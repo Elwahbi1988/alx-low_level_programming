@@ -3,6 +3,7 @@
 /**
 *binary_to_uint:Convert number binary to unsigned int
 *@b:String containing the binary number
+*Description: The binary convert Unsigned int
 *Return:Converted number
 */
 
