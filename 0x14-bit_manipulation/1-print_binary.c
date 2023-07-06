@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*print_binary: Print binary equal of decimal number
+*print_binary - Print binary equal of decimal number
 *@n: Number print binary
 */
 
