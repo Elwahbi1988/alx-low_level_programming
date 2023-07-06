@@ -6,15 +6,19 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int j;
-	unsigned int ui = 0;
+int j;
+unsigned int dec_val = 0;
+
 if (!b)
-	return (0);
+return (0);
+
 for (j = 0; b[j]; j++)
-	{
-	if (b[j] < '0' || b[j] > '1')
-	return (0);
-	ui = 2 * ui + (b[j] - '0');
-	}
-	return (ui);
+{
+if (b[j] < '0' || b[j] > '1')
+
+return (0);
+
+dec_val = 2 * dec_val + (b[j] - '0');
+}
+return (dec_val);
 }
